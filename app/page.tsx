@@ -9,9 +9,10 @@ import Navbar from "@/components/common/Navbar"
 
 export default function Home(){
   return (
-      <main className="">
-      <Navbar/>
-      <HeroSection />
+      <main>
+        <Navbar/>
+        <HeroSection />
+        <About />
       </main>
   );
 }
