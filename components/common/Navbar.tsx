@@ -16,7 +16,7 @@ export default function Navbar () {
 
             {/* centered Logo */}
             <div className="absolute left-1/2 transform -translate-x-1/2 mt-2">
-              <Link href="/" className={`text-6xl font-bold tracking-widest ${gothicFont.className}`}>
+              <Link href="/" className={`text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-widest ${gothicFont.className}`}>
                 SINYAL
               </Link>
             </div>
