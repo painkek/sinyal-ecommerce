@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function FeaturedProducts() {
   return (
-    <section className="min-h-screen">
+    <section className="min-h-screen mb-12">
       <div
         className={`flex flex-col  items-center justify-center py-18 pb-0.5`}
       >
@@ -14,8 +14,8 @@ export default function FeaturedProducts() {
         <p className="text-center px-40 m-5 text-gray-500">
           Discover our standout selection! Explore premium quality,
           best-selling, and exclusive products handpicked just for you.
-          Limited-time offers and top-rated favorites—shop now before they're
-          gone!
+          Limited-time offers and top-rated favorites—shop now before
+          they&apos;re gone!
         </p>
       </div>
 
