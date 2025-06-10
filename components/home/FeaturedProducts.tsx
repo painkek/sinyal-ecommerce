@@ -20,13 +20,15 @@ export default function FeaturedProducts() {
       </div>
 
       {/* Featured Products Grid Card */}
-      <div className="relative flex flex-row items-center justify-center gap-6">
-        <div className=" relative my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
-          <div className="relative p-2.5 h-96 overflow-hidden rounded-xl bg-clip-border">
+      <div className="relative flex flex-wrap items-center justify-center px-6 py-4 gap-6">
+        {/* Product Card */}
+        <div className=" relative my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-80">
+          <div className="relative p-2.5 h-80 overflow-hidden rounded-xl bg-clip-border">
             <Image
               src="/products/Refocus.jpg"
               alt="Refocus Shirt"
-              fill
+              height={320}
+              width={320}
               className="h-full w-full object-cover rounded-md"
             />
           </div>
@@ -35,7 +37,7 @@ export default function FeaturedProducts() {
               <p className="text-slate-800 text-xl font-semibold">
                 Apple AirPods
               </p>
-              <p className="text-cyan-600 text-xl font-semibold">$95.00</p>
+              <p className="text-cyan-600 text-xl font-semibold">P699</p>
             </div>
             <Button className="w-full">
               <span className="text-white">Add to Cart</span>
@@ -43,12 +45,13 @@ export default function FeaturedProducts() {
           </div>
         </div>
 
-        <div className=" relative my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
-          <div className="relative p-2.5 h-96 overflow-hidden rounded-xl bg-clip-border">
+        <div className=" relative my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-80">
+          <div className="relative p-2.5 h-80 overflow-hidden rounded-xl bg-clip-border">
             <Image
               src="/products/Refocus.jpg"
               alt="Refocus Shirt"
-              fill
+              height={320}
+              width={320}
               className="h-full w-full object-cover rounded-md"
             />
           </div>
@@ -57,7 +60,7 @@ export default function FeaturedProducts() {
               <p className="text-slate-800 text-xl font-semibold">
                 Apple AirPods
               </p>
-              <p className="text-cyan-600 text-xl font-semibold">$95.00</p>
+              <p className="text-cyan-600 text-xl font-semibold">P699</p>
             </div>
             <Button className="w-full">
               <span className="text-white">Add to Cart</span>
@@ -65,12 +68,13 @@ export default function FeaturedProducts() {
           </div>
         </div>
 
-        <div className=" relative my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-96">
-          <div className="relative p-2.5 h-96 overflow-hidden rounded-xl bg-clip-border">
+        <div className=" relative my-6 bg-white shadow-sm border border-slate-200 rounded-lg w-80">
+          <div className="relative p-2.5 h-80 overflow-hidden rounded-xl bg-clip-border">
             <Image
               src="/products/Refocus.jpg"
               alt="Refocus Shirt"
-              fill
+              height={320}
+              width={320}
               className="h-full w-full object-cover rounded-md"
             />
           </div>
@@ -79,7 +83,7 @@ export default function FeaturedProducts() {
               <p className="text-slate-800 text-xl font-semibold">
                 Apple AirPods
               </p>
-              <p className="text-cyan-600 text-xl font-semibold">$95.00</p>
+              <p className="text-cyan-600 text-xl font-semibold">P699</p>
             </div>
             <Button className="w-full">
               <span className="text-white">Add to Cart</span>
